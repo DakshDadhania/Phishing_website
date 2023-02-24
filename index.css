@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+.final-1-icon {
+  position: absolute;
+  top: 27px;
+  left: 244px;
+  width: 821px;
+  height: 640px;
+  object-fit: cover;
+}
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+.cryptonite-is-here,
+.you-accidentally-clicked {
+  position: absolute;
+  font-weight: 700;
+  display: inline-block;
+  height: 73px;
+}
+.cryptonite-is-here {
+  padding: 0;
+  top: 630px;
+  left: 259px;
+  width: 792px;
+}
+.you-accidentally-clicked {
+  margin: 0;
+  top: 47px;
+  left: 126px;
+  animation: blinker 1s linear infinite;
+  font-size: 53px;
+  font-family: var(--font-roboto);
+  color: var(--color-darkred);
+  width: 1027px;
+}
+.final-1-parent {
+  position: relative;
+  background-color: #079488;
+  width: 100%;
+  height: 980px;
+  overflow: hidden;
+  text-align: left;
+  font-size: 64px;
+  color: var(--color-green);
+  font-family: var(--font-teko);
+}
+
+/* Styles for devices with a maximum width of 600px */
+@media only screen and (max-width: 600px) {
+   .final-1-icon {
+    width: 100%;
+    height: auto;
+    top: 20;
+    left: 0;
+  }
+ 
+  .cryptonite-is-here {
+    top: 40%;
+    transform: translateY(-50%);
+    font-size: 32px;
+    width: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+  }
+  
+  .you-accidentally-clicked {
+    top: 25%;
+    font-size: 24px;
+    width: 90%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+  }
+ 
+}

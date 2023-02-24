@@ -1,0 +1,12 @@
+:root {
+  /* fonts */
+  --font-roboto: Roboto;
+  --font-teko: Teko;
+
+  /* font sizes */
+  --font-size-base: 48px;
+
+  /* Colors */
+  --color-darkred: #8b0000;
+  --color-green: #007400;
+}
